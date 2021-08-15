@@ -1,1 +1,1 @@
-# TecHacks-EdTutor
+# EdTutor

@@ -27,7 +27,14 @@
             padding-top: 5%;
             padding-bottom: 5%;
         }
-
+        .container-fluid-spec {
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        .container-fluid-spec2 {
+            padding-top: 1%;
+            padding-bottom: 3%;
+        }
         .title {
             color: #fff;
             background-color: #174D3E;
@@ -122,7 +129,8 @@
         }
 
         .tutor-border {
-            height: 300px;
+            padding-top: 2%;
+            padding-bottom: 2%;
             line-height: 60px;
         }
 
@@ -178,6 +186,11 @@
         h1{
             font-size: 100px;
         }
+        .intro{
+            padding-left: 15%;
+            padding-right: 15%;
+            opacity: 0.9;
+        }
     </style>
 </head>
 
@@ -207,13 +220,13 @@
         </div>
     </nav>
     <div class="container-fluid title text-center container-fluid-title" id="#home">
-        <h1>EdTutor</h1>
-        <p>what this website is doing...</p>
+        <h1>EdTutor</h1><br><hr><br>
+        <h3 class="intro">an all-in-one learning platform that incorporates online courses, question-and-answer forum, customizable study planner, and other student services!</h3>
     </div>
     <div class="container text-center tutor">
         <br>
         <div class="row">
-            <h3>Recommended Tutors</h3><br><br>
+            <h3>Recommended Tutors</h3><br><br><hr>
             <div class="col-sm-4">
                 <a href="#tutor1" data-toggle="collapse">
                     <img src="/static/img/tutor1.webp" alt="tutor 1" width="255" height="255" class="img-circle person">
@@ -255,12 +268,11 @@
             </div>
         </div>
     </div>
-    <br><br><br>
+    <br>
     <div id="design" class="container-fluid">
         <div class="design_bg">
             <div class="container-fluid text-center tutor-border">
                 <div class="row">
-                    <br>
                     <h3><strong>Share Your Knowledge</strong></h3>
                     <p><strong>Design a course and upload your own instructional videos.</strong></p>
                     <button class="btn btn-default btn-lg round-button"><a class="atag"
@@ -270,7 +282,8 @@
             </div>
         </div>
     </div>
-    <div id="tutor" class="container-fluid">
+    <div id="tutor" class="container-fluid container-fluid-spec">
+        <hr>
         <h3>Share your expertise</h3>
         <ul class="nav nav-tabs">
             <li class="active"><a data-toggle="tab" href="#unanswered">Unanswered questions</a></li>
@@ -336,7 +349,7 @@
             </div>
         </div>
     </div>
-    <div id="take" class="container-fluid take-bg"><br>
+    <div id="take" class="container-fluid take-bg container-fluid-spec2"><br>
         <h2 class="text-center">Take a Course</h2><br><br>
         <div class="row">
             <div class="col-sm-4">
@@ -432,7 +445,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><hr>
     <div id="message" class="container">
         <h3>Ask tutor questions at any time!</h3>
         <div class="row">

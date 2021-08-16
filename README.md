@@ -1,4 +1,5 @@
 # EdTutor
+> https://devpost.com/software/edtutor
 ## Inspiration
 We saw that tutors are heavily needed for students to deeply understand academic materials, and we also saw people who use their free time to educate, for money or just purely out of the passion to share knowledge. These all inspired us to create a web application that connects users and allows them to gain expertise in their fields of interest, maximize productivity in studying, or become individual educators and apply their knowledge. And here comes EdTutor -- an all-in-one learning platform that incorporates online courses, question-and-answer forum, customizable study planner, and other student services!
 
